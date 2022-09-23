@@ -1,3 +1,7 @@
+//"cerner_2tothe5th_2022"
+
+//Finding index of the number array that match up the sum
+
 var twoSum = function(numbers, target) {
     for(i=0;i<numbers.length;i++){
         let diff = target - numbers[i];
